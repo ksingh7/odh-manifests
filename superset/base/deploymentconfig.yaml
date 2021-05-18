@@ -29,7 +29,7 @@ spec:
                 name: superset
             - secretRef:
                 name: superset-secret
-          image: quay.io/aiops/superset:v0.30
+          image: quay.io/internaldatahub/superset:1.1.0
           imagePullPolicy: Always
           ports:
             - containerPort: 8088
