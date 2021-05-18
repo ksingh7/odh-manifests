@@ -10,9 +10,9 @@ resources:
 - route.yaml
 namespace: opendatahub
 images:
-- name: quay.io/aiops/superset
-  newTag: v0.30
-  newName: quay.io/aiops/superset
+- name: quay.io/internaldatahub/superset
+  newTag: 1.1.0
+  newName: quay.io/internaldatahub/superset
 secretGenerator:
 - name: superset-secret
   env: params.env
