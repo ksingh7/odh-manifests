@@ -21,9 +21,6 @@ spec:
     spec:
       containers:
         - name: superset
-          command:
-            - /bin/sh
-            - entrypoint.sh
           envFrom:
             - configMapRef:
                 name: superset
